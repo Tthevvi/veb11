@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЛР №11 — Vue Router</title>
+    <!-- Подключаем Tailwind CSS через CDN, как указано в лекции -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: { primary: '#42b883', primaryDark: '#2c8a5f' }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-gray-50 text-gray-800 antialiased">
+    <!-- Точка монтирования Vue-приложения -->
+    <div id="app"></div>
+    <!-- Входной скрипт приложения -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
